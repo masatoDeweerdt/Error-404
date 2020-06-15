@@ -28,5 +28,15 @@ body {
 }
 
 .container a {
+    text-decoration: none;
+    background: rgb(8, 107, 139);
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+}
 
+.container a:hover{
+    background: rgb(5, 79, 104);
 }

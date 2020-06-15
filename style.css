@@ -1,19 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "montserrat", sans-serif;
+    font-family: sans-serif;
     min-height: 100vh;
-    background-image: ;
+    background-image: url(Pictures/j92bu1kvqyh11.jpg);
 }
 
 .container {
     width: 100%;
     position: absolute;
     top: 50%;
-
     transform: translateY(-50%);
     text-align: center;
-    color: #343434;
+    color: lightblue;
 }
 
 .container h1 {
@@ -21,5 +20,11 @@ body {
     margin: 0;
     font-weight: 900;
     letter-spacing: 20px;
-    background: url(Pictures/j92bu1kvqyh11.jpg) center;
+    background: url(Pictures/TerrariaBackground.jpg) center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.container a {
+
 }
